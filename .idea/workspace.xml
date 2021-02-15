@@ -1,30 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4b1b51e-7598-4988-8c13-0a19cbbcb939" name="Default Changelist" comment="" />
+    <list default="true" id="e4b1b51e-7598-4988-8c13-0a19cbbcb939" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/.idea/java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/simple-db-hw-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/simpledb/simpledb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simple-db-hw-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/simple-db-hw-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/simple-db-hw-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1oQ4lwhi1Ce4a0beBCXEWcLW9sf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -36,21 +92,49 @@
       <option name="presentableId" value="Default" />
       <updated>1613205635524</updated>
       <workItem from="1613205641421" duration="264000" />
-      <workItem from="1613232275780" duration="617000" />
+      <workItem from="1613232275780" duration="1230000" />
+      <workItem from="1613314094329" duration="965000" />
+      <workItem from="1613315365259" duration="177000" />
+      <workItem from="1613315698700" duration="3446000" />
+      <workItem from="1613352416516" duration="2054000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="254" y="130" key="SettingsEditor" timestamp="1613268039087">
+    <state x="602" y="377" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1613314985172">
       <screen x="0" y="0" width="1500" height="970" />
     </state>
-    <state x="254" y="130" key="SettingsEditor/0.0.1500.970@0.0.1500.970" timestamp="1613268039087" />
-    <state x="447" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1613232277465">
+    <state x="602" y="377" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1500.970@0.0.1500.970" timestamp="1613314985172" />
+    <state x="531" y="240" key="FileChooserDialogImpl" timestamp="1613315485925">
       <screen x="0" y="0" width="1500" height="970" />
     </state>
-    <state x="447" y="314" key="com.intellij.ide.util.TipDialog/0.0.1500.970@0.0.1500.970" timestamp="1613232277465" />
+    <state x="531" y="240" key="FileChooserDialogImpl/0.0.1500.970@0.0.1500.970" timestamp="1613315485925" />
+    <state x="254" y="121" key="SettingsEditor" timestamp="1613316045218">
+      <screen x="0" y="0" width="1500" height="970" />
+    </state>
+    <state x="254" y="121" key="SettingsEditor/0.0.1500.970@0.0.1500.970" timestamp="1613316045218" />
+    <state x="447" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1613314120936">
+      <screen x="0" y="0" width="1500" height="970" />
+    </state>
+    <state x="447" y="314" key="com.intellij.ide.util.TipDialog/0.0.1500.970@0.0.1500.970" timestamp="1613314120936" />
+    <state x="414" y="209" width="670" height="676" key="search.everywhere.popup" timestamp="1613315288950">
+      <screen x="0" y="0" width="1500" height="970" />
+    </state>
+    <state x="414" y="209" width="670" height="676" key="search.everywhere.popup/0.0.1500.970@0.0.1500.970" timestamp="1613315288950" />
   </component>
 </project>
