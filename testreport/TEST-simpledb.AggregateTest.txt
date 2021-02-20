@@ -1,0 +1,91 @@
+Testsuite: simpledb.AggregateTest
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.139 sec
+
+Testcase: rewind took 0.02 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:36)
+	at simpledb.AggregateTest.createTupleLists(AggregateTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: countStringAggregate took 0.001 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:36)
+	at simpledb.AggregateTest.createTupleLists(AggregateTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: getTupleDesc took 0.001 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:36)
+	at simpledb.AggregateTest.createTupleLists(AggregateTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: maxAggregate took 0.001 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:36)
+	at simpledb.AggregateTest.createTupleLists(AggregateTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: minAggregate took 0 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:36)
+	at simpledb.AggregateTest.createTupleLists(AggregateTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: sumAggregate took 0.001 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:36)
+	at simpledb.AggregateTest.createTupleLists(AggregateTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: avgAggregate took 0 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:36)
+	at simpledb.AggregateTest.createTupleLists(AggregateTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: sumStringGroupBy took 0 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:36)
+	at simpledb.AggregateTest.createTupleLists(AggregateTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

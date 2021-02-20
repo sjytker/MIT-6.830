@@ -1,0 +1,48 @@
+Testsuite: simpledb.CatalogTest
+Tests run: 5, Failures: 4, Errors: 1, Skipped: 0, Time elapsed: 0.158 sec
+
+Testcase: handleDuplicateNames took 0.021 sec
+	Caused an ERROR
+expected:<2006578554> but was:<0>
+java.lang.AssertionError: expected:<2006578554> but was:<0>
+	at simpledb.CatalogTest.handleDuplicateNames(CatalogTest.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: getTupleDesc took 0.002 sec
+	Caused an ERROR
+expected:<> but was:<null>
+java.lang.AssertionError: expected:<> but was:<null>
+	at simpledb.CatalogTest.getTupleDesc(CatalogTest.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: getDatabaseFile took 0.003 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.CatalogTest.getDatabaseFile(CatalogTest.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: getTableId took 0.002 sec
+	Caused an ERROR
+expected:<2140750073> but was:<0>
+java.lang.AssertionError: expected:<2140750073> but was:<0>
+	at simpledb.CatalogTest.getTableId(CatalogTest.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: handleDuplicateIds took 0.001 sec
+	Caused an ERROR
+expected:<e1926cb5-400f-4a28-b1b0-b888ca5af536> but was:<null>
+java.lang.AssertionError: expected:<e1926cb5-400f-4a28-b1b0-b888ca5af536> but was:<null>
+	at simpledb.CatalogTest.handleDuplicateIds(CatalogTest.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

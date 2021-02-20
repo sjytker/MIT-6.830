@@ -1,0 +1,14 @@
+Testsuite: simpledb.systemtest.AbortEvictionTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.305 sec
+
+Testcase: testDoNotEvictDirtyPages took 0.174 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.systemtest.EvictionTest.insertRow(EvictionTest.java:50)
+	at simpledb.systemtest.AbortEvictionTest.testDoNotEvictDirtyPages(AbortEvictionTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

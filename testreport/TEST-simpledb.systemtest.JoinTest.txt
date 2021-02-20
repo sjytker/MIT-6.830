@@ -1,0 +1,36 @@
+Testsuite: simpledb.systemtest.JoinTest
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.223 sec
+
+Testcase: testMultipleMatch took 0.104 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.JoinTest.validateJoin(JoinTest.java:45)
+	at simpledb.systemtest.JoinTest.testMultipleMatch(JoinTest.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testNoMatch took 0.007 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.JoinTest.validateJoin(JoinTest.java:45)
+	at simpledb.systemtest.JoinTest.testNoMatch(JoinTest.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testSingleMatch took 0.007 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.JoinTest.validateJoin(JoinTest.java:45)
+	at simpledb.systemtest.JoinTest.testSingleMatch(JoinTest.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

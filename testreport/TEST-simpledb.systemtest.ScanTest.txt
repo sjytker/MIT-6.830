@@ -1,0 +1,38 @@
+Testsuite: simpledb.systemtest.ScanTest
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.249 sec
+
+Testcase: testSmall took 0.09 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.SystemTestUtil.matchTuples(SystemTestUtil.java:106)
+	at simpledb.systemtest.SystemTestUtil.matchTuples(SystemTestUtil.java:100)
+	at simpledb.systemtest.ScanTest.validateScan(ScanTest.java:32)
+	at simpledb.systemtest.ScanTest.testSmall(ScanTest.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testRewind took 0.011 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.ScanTest.testRewind(ScanTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testCache took 0.046 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.SystemTestUtil.matchTuples(SystemTestUtil.java:106)
+	at simpledb.systemtest.SystemTestUtil.matchTuples(SystemTestUtil.java:100)
+	at simpledb.systemtest.ScanTest.testCache(ScanTest.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

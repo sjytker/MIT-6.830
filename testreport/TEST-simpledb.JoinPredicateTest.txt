@@ -1,0 +1,12 @@
+Testsuite: simpledb.JoinPredicateTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.167 sec
+
+Testcase: filterVaryingVals took 0.024 sec
+	Caused an ERROR
+
+java.lang.AssertionError: 
+	at simpledb.JoinPredicateTest.filterVaryingVals(JoinPredicateTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

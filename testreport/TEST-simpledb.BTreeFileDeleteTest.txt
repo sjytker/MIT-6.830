@@ -1,0 +1,107 @@
+Testsuite: simpledb.BTreeFileDeleteTest
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.278 sec
+
+Testcase: testStealFromRightLeafPage took 0.096 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.BTreeFileEncoder$TupleComparator.compare(BTreeFileEncoder.java:132)
+	at simpledb.BTreeFileEncoder$TupleComparator.compare(BTreeFileEncoder.java:113)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:234)
+	at java.base/java.util.Arrays.sort(Arrays.java:1306)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1720)
+	at java.base/java.util.Collections.sort(Collections.java:179)
+	at simpledb.BTreeFileEncoder.convertToLeafPage(BTreeFileEncoder.java:557)
+	at simpledb.BTreeUtility.createRandomLeafPage(BTreeUtility.java:314)
+	at simpledb.BTreeFileDeleteTest.testStealFromRightLeafPage(BTreeFileDeleteTest.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testStealFromLeftInternalPage took 0.012 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.BTreeInternalPage.getMaxEntries(BTreeInternalPage.java:118)
+	at simpledb.BTreeInternalPage.<init>(BTreeInternalPage.java:70)
+	at simpledb.BTreeUtility.createRandomInternalPage(BTreeUtility.java:363)
+	at simpledb.BTreeFileDeleteTest.testStealFromLeftInternalPage(BTreeFileDeleteTest.java:195)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testStealFromRightInternalPage took 0.008 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.BTreeInternalPage.getMaxEntries(BTreeInternalPage.java:118)
+	at simpledb.BTreeInternalPage.<init>(BTreeInternalPage.java:70)
+	at simpledb.BTreeUtility.createRandomInternalPage(BTreeUtility.java:363)
+	at simpledb.BTreeFileDeleteTest.testStealFromRightInternalPage(BTreeFileDeleteTest.java:261)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testStealFromLeftLeafPage took 0.003 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.BTreeFileEncoder$TupleComparator.compare(BTreeFileEncoder.java:132)
+	at simpledb.BTreeFileEncoder$TupleComparator.compare(BTreeFileEncoder.java:113)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:234)
+	at java.base/java.util.Arrays.sort(Arrays.java:1306)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1720)
+	at java.base/java.util.Collections.sort(Collections.java:179)
+	at simpledb.BTreeFileEncoder.convertToLeafPage(BTreeFileEncoder.java:557)
+	at simpledb.BTreeUtility.createRandomLeafPage(BTreeUtility.java:314)
+	at simpledb.BTreeFileDeleteTest.testStealFromLeftLeafPage(BTreeFileDeleteTest.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testMergeInternalPages took 0.009 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.BTreeInternalPage.getMaxEntries(BTreeInternalPage.java:118)
+	at simpledb.BTreeInternalPage.<init>(BTreeInternalPage.java:70)
+	at simpledb.BTreeUtility.createRandomInternalPage(BTreeUtility.java:363)
+	at simpledb.BTreeFileDeleteTest.testMergeInternalPages(BTreeFileDeleteTest.java:327)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: deleteTuple took 0.007 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:209)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:179)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:157)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:119)
+	at simpledb.BTreeFileDeleteTest.deleteTuple(BTreeFileDeleteTest.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testMergeLeafPages took 0.002 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.BTreeFileEncoder$TupleComparator.compare(BTreeFileEncoder.java:132)
+	at simpledb.BTreeFileEncoder$TupleComparator.compare(BTreeFileEncoder.java:113)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:234)
+	at java.base/java.util.Arrays.sort(Arrays.java:1306)
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1720)
+	at java.base/java.util.Collections.sort(Collections.java:179)
+	at simpledb.BTreeFileEncoder.convertToLeafPage(BTreeFileEncoder.java:557)
+	at simpledb.BTreeUtility.createRandomLeafPage(BTreeUtility.java:314)
+	at simpledb.BTreeFileDeleteTest.testMergeLeafPages(BTreeFileDeleteTest.java:145)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

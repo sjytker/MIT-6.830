@@ -1,0 +1,40 @@
+Testsuite: simpledb.HeapPageIdTest
+Tests run: 4, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 0.147 sec
+
+Testcase: equals took 0.014 sec
+	Caused an ERROR
+
+java.lang.AssertionError: 
+	at simpledb.HeapPageIdTest.equals(HeapPageIdTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: getTableId took 0.001 sec
+	Caused an ERROR
+expected:<1> but was:<0>
+java.lang.AssertionError: expected:<1> but was:<0>
+	at simpledb.HeapPageIdTest.getTableId(HeapPageIdTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testHashCode took 0.001 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapPageId.hashCode(HeapPageId.java:40)
+	at simpledb.HeapPageIdTest.testHashCode(HeapPageIdTest.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: pageno took 0.001 sec
+	Caused an ERROR
+expected:<1> but was:<0>
+java.lang.AssertionError: expected:<1> but was:<0>
+	at simpledb.HeapPageIdTest.pageno(HeapPageIdTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

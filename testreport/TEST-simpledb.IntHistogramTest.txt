@@ -1,0 +1,75 @@
+Testsuite: simpledb.IntHistogramTest
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.165 sec
+
+Testcase: opGreaterThanOrEqualsTest took 0.017 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at simpledb.IntHistogramTest.opGreaterThanOrEqualsTest(IntHistogramTest.java:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: opLessThanOrEqualsTest took 0.001 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at simpledb.IntHistogramTest.opLessThanOrEqualsTest(IntHistogramTest.java:157)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: orderOfGrowthTest took 0.013 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at simpledb.IntHistogramTest.orderOfGrowthTest(IntHistogramTest.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: opGreaterThanTest took 0.001 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at simpledb.IntHistogramTest.opGreaterThanTest(IntHistogramTest.java:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: opLessThanTest took 0.001 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at simpledb.IntHistogramTest.opLessThanTest(IntHistogramTest.java:116)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: negativeRangeTest took 0.001 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at simpledb.IntHistogramTest.negativeRangeTest(IntHistogramTest.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: opEqualsTest took 0.001 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at simpledb.IntHistogramTest.opEqualsTest(IntHistogramTest.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: opNotEqualsTest took 0.001 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at simpledb.IntHistogramTest.opNotEqualsTest(IntHistogramTest.java:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

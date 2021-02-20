@@ -1,0 +1,15 @@
+Testsuite: simpledb.HeapFileWriteTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.185 sec
+
+Testcase: addTuple took 0.083 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.Utility.createEmptyHeapFile(Utility.java:112)
+	at simpledb.TestUtil$CreateHeapFile.setUp(TestUtil.java:388)
+	at simpledb.HeapFileWriteTest.setUp(HeapFileWriteTest.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

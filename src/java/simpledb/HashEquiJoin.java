@@ -25,7 +25,7 @@ public class HashEquiJoin extends Operator {
      * @param child2
      *            Iterator for the right(inner) relation to join
      */
-    public HashEquiJoin(JoinPredicate p, OpIterator child1, OpIterator child2) {
+    public HashEquiJoin(JoinPredicate p, OpIterator child1, OpIterator child2) throws CloneNotSupportedException {
         this.pred = p;
         this.child1 = child1;
         this.child2 = child2;

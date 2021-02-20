@@ -1,0 +1,39 @@
+Testsuite: simpledb.BufferPoolWriteTest
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.204 sec
+
+Testcase: insertTuple took 0.083 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.Utility.createEmptyHeapFile(Utility.java:112)
+	at simpledb.TestUtil$CreateHeapFile.setUp(TestUtil.java:388)
+	at simpledb.BufferPoolWriteTest.setUp(BufferPoolWriteTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: deleteTuple took 0.002 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.Utility.createEmptyHeapFile(Utility.java:112)
+	at simpledb.TestUtil$CreateHeapFile.setUp(TestUtil.java:388)
+	at simpledb.BufferPoolWriteTest.setUp(BufferPoolWriteTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: handleManyDirtyPages took 0.002 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.Utility.createEmptyHeapFile(Utility.java:112)
+	at simpledb.TestUtil$CreateHeapFile.setUp(TestUtil.java:388)
+	at simpledb.BufferPoolWriteTest.setUp(BufferPoolWriteTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

@@ -1,0 +1,25 @@
+Testsuite: simpledb.StringAggregatorTest
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.211 sec
+
+Testcase: mergeCount took 0.03 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:81)
+	at simpledb.StringAggregatorTest.createTupleList(StringAggregatorTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testIterator took 0.001 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:81)
+	at simpledb.StringAggregatorTest.createTupleList(StringAggregatorTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

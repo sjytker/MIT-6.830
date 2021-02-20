@@ -1,0 +1,17 @@
+Testsuite: simpledb.systemtest.EvictionTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.857 sec
+------------- Standard Output ---------------
+EvictionTest creating large table
+EvictionTest scanning large table
+------------- ---------------- ---------------
+
+Testcase: testHeapFileScanWithManyPages took 0.747 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.EvictionTest.testHeapFileScanWithManyPages(EvictionTest.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

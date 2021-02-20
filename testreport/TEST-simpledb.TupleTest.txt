@@ -1,0 +1,31 @@
+Testsuite: simpledb.TupleTest
+Tests run: 3, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 0.15 sec
+
+Testcase: getTupleDesc took 0.016 sec
+	Caused an ERROR
+expected:<> but was:<null>
+java.lang.AssertionError: expected:<> but was:<null>
+	at simpledb.TupleTest.getTupleDesc(TupleTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: modifyFields took 0.002 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.IntField.equals(IntField.java:36)
+	at simpledb.TupleTest.modifyFields(TupleTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: modifyRecordId took 0.002 sec
+	Caused an ERROR
+modifyRecordId() test failed due to RecordId.equals() not being implemented.  This is not required for Lab 1, but should pass when you do implement the RecordId class.
+java.lang.UnsupportedOperationException: modifyRecordId() test failed due to RecordId.equals() not being implemented.  This is not required for Lab 1, but should pass when you do implement the RecordId class.
+	at simpledb.TupleTest.modifyRecordId(TupleTest.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

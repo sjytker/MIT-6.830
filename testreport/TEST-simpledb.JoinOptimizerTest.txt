@@ -1,0 +1,84 @@
+Testsuite: simpledb.JoinOptimizerTest
+Tests run: 5, Failures: 3, Errors: 2, Skipped: 0, Time elapsed: 1.24 sec
+------------- Standard Output ---------------
+tableId1: 0
+tableId2: 0
+Added scan of table t1
+Added scan of table t2
+Added join between t1.c8 and t2.c7
+Added select list field null.*
+tableId1: 0
+tableId2: 0
+Added scan of table t1
+Added scan of table t2
+Added join between t1.c1 and t2.c2
+Added select list field null.*
+tableId1: 0
+tableId2: 0
+tableId1: 0
+tableId2: 0
+Added scan of table emp
+Added scan of table dept
+Added scan of table hobbies
+Added scan of table hobby
+Added join between emp.c1 and dept.c0
+Added join between hobbies.c0 and emp.c2
+Added join between hobbies.c1 and hobby.c0
+Added select list field null.*
+tableId1: 0
+tableId2: 0
+------------- ---------------- ---------------
+
+Testcase: estimateJoinCardinality took 0.26 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at simpledb.JoinOptimizerTest.estimateJoinCardinality(JoinOptimizerTest.java:257)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: estimateJoinCostTest took 0.055 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at simpledb.JoinOptimizerTest.getRandomJoinCosts(JoinOptimizerTest.java:98)
+	at simpledb.JoinOptimizerTest.checkJoinEstimateCosts(JoinOptimizerTest.java:161)
+	at simpledb.JoinOptimizerTest.estimateJoinCostTest(JoinOptimizerTest.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: nonequalityOrderJoinsTest took 0.084 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.JoinOptimizerTest.nonequalityOrderJoinsTest(JoinOptimizerTest.java:572)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: orderJoinsTest took 0.525 sec
+	FAILED
+
+junit.framework.AssertionFailedError: 
+	at simpledb.JoinOptimizerTest.orderJoinsTest(JoinOptimizerTest.java:369)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: bigOrderJoinsTest took 0.173 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.JoinOptimizerTest.bigOrderJoinsTest(JoinOptimizerTest.java:452)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+

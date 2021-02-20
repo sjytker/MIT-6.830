@@ -1,0 +1,65 @@
+Testsuite: simpledb.systemtest.BTreeFileInsertTest
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.909 sec
+
+Testcase: testSplitInternalPage took 0.23 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:209)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:179)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:157)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:119)
+	at simpledb.systemtest.BTreeFileInsertTest.testSplitInternalPage(BTreeFileInsertTest.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: addTuple took 0.012 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.BTreeFile.insertTuple(BTreeFile.java:442)
+	at simpledb.systemtest.BTreeFileInsertTest.addTuple(BTreeFileInsertTest.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testSplitRootPage took 0.533 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:209)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:179)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:157)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:119)
+	at simpledb.systemtest.BTreeFileInsertTest.testSplitRootPage(BTreeFileInsertTest.java:171)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testSplitLeafPage took 0.005 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:209)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:179)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:157)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:119)
+	at simpledb.systemtest.BTreeFileInsertTest.testSplitLeafPage(BTreeFileInsertTest.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: addDuplicateTuples took 0.003 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.BTreeChecker.checkRep(BTreeChecker.java:64)
+	at simpledb.systemtest.BTreeFileInsertTest.addDuplicateTuples(BTreeFileInsertTest.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

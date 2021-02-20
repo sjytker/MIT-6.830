@@ -1,0 +1,52 @@
+Testsuite: simpledb.HeapPageWriteTest
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.202 sec
+
+Testcase: deleteTuple took 0.089 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.HeapPage.getPageData(HeapPage.java:207)
+	at simpledb.HeapPage.setBeforeImage(HeapPage.java:106)
+	at simpledb.HeapPage.<init>(HeapPage.java:62)
+	at simpledb.HeapPageWriteTest.deleteTuple(HeapPageWriteTest.java:101)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testDirty took 0.002 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.HeapPage.getPageData(HeapPage.java:207)
+	at simpledb.HeapPage.setBeforeImage(HeapPage.java:106)
+	at simpledb.HeapPage.<init>(HeapPage.java:62)
+	at simpledb.HeapPageWriteTest.testDirty(HeapPageWriteTest.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: addTuple took 0.001 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.HeapPage.getPageData(HeapPage.java:207)
+	at simpledb.HeapPage.setBeforeImage(HeapPage.java:106)
+	at simpledb.HeapPage.<init>(HeapPage.java:62)
+	at simpledb.HeapPageWriteTest.addTuple(HeapPageWriteTest.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: deleteNonexistentTuple took 0.001 sec
+	Caused an ERROR
+Unexpected exception, expected<simpledb.DbException> but was<java.lang.NullPointerException>
+java.lang.Exception: Unexpected exception, expected<simpledb.DbException> but was<java.lang.NullPointerException>
+Caused by: java.lang.NullPointerException
+	at simpledb.HeapPage.getPageData(HeapPage.java:207)
+	at simpledb.HeapPage.setBeforeImage(HeapPage.java:106)
+	at simpledb.HeapPage.<init>(HeapPage.java:62)
+	at simpledb.HeapPageWriteTest.deleteNonexistentTuple(HeapPageWriteTest.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

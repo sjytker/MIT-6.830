@@ -1,0 +1,101 @@
+Testsuite: simpledb.BTreeFileReadTest
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.261 sec
+
+Testcase: getId took 0.089 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:209)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:179)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:157)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:119)
+	at simpledb.BTreeFileReadTest.setUp(BTreeFileReadTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: getTupleDesc took 0.008 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:209)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:179)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:157)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:119)
+	at simpledb.BTreeFileReadTest.setUp(BTreeFileReadTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: readPage took 0.008 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:209)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:179)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:157)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:119)
+	at simpledb.BTreeFileReadTest.setUp(BTreeFileReadTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: numPages took 0.006 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:209)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:179)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:157)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:119)
+	at simpledb.BTreeFileReadTest.setUp(BTreeFileReadTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testIteratorBasic took 0.006 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:209)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:179)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:157)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:119)
+	at simpledb.BTreeFileReadTest.setUp(BTreeFileReadTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: indexIterator took 0.005 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:209)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:179)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:157)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:119)
+	at simpledb.BTreeFileReadTest.setUp(BTreeFileReadTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testIteratorClose took 0.004 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:209)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:179)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:157)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:119)
+	at simpledb.BTreeFileReadTest.setUp(BTreeFileReadTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

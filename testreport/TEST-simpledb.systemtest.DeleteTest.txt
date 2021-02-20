@@ -1,0 +1,68 @@
+Testsuite: simpledb.systemtest.DeleteTest
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.346 sec
+
+Testcase: testLessThanOrEq took 0.134 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.DeleteTest.applyPredicate(DeleteTest.java:15)
+	at simpledb.systemtest.FilterBase.runTransactionForPredicate(FilterBase.java:30)
+	at simpledb.systemtest.FilterBase.validatePredicate(FilterBase.java:40)
+	at simpledb.systemtest.FilterBase.testLessThanOrEq(FilterBase.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testGreaterThan took 0.013 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.DeleteTest.applyPredicate(DeleteTest.java:15)
+	at simpledb.systemtest.FilterBase.runTransactionForPredicate(FilterBase.java:30)
+	at simpledb.systemtest.FilterBase.validatePredicate(FilterBase.java:40)
+	at simpledb.systemtest.FilterBase.testGreaterThan(FilterBase.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testLessThan took 0.015 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.DeleteTest.applyPredicate(DeleteTest.java:15)
+	at simpledb.systemtest.FilterBase.runTransactionForPredicate(FilterBase.java:30)
+	at simpledb.systemtest.FilterBase.validatePredicate(FilterBase.java:40)
+	at simpledb.systemtest.FilterBase.testLessThan(FilterBase.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testEquals took 0.015 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.DeleteTest.applyPredicate(DeleteTest.java:15)
+	at simpledb.systemtest.FilterBase.runTransactionForPredicate(FilterBase.java:30)
+	at simpledb.systemtest.FilterBase.validatePredicate(FilterBase.java:40)
+	at simpledb.systemtest.FilterBase.testEquals(FilterBase.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testGreaterThanOrEq took 0.009 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.DeleteTest.applyPredicate(DeleteTest.java:15)
+	at simpledb.systemtest.FilterBase.runTransactionForPredicate(FilterBase.java:30)
+	at simpledb.systemtest.FilterBase.validatePredicate(FilterBase.java:40)
+	at simpledb.systemtest.FilterBase.testGreaterThanOrEq(FilterBase.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

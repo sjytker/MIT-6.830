@@ -1,0 +1,20 @@
+Testsuite: simpledb.systemtest.BTreeTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.327 sec
+------------- Standard Output ---------------
+Creating large random B+ tree...
+------------- ---------------- ---------------
+
+Testcase: testBigFile took 0.195 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:209)
+	at simpledb.BTreeFileEncoder.convert(BTreeFileEncoder.java:179)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:157)
+	at simpledb.BTreeUtility.createRandomBTreeFile(BTreeUtility.java:119)
+	at simpledb.systemtest.BTreeTest.testBigFile(BTreeTest.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

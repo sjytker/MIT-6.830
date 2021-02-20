@@ -1,0 +1,31 @@
+Testsuite: simpledb.TableStatsTest
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.612 sec
+
+Testcase: estimateTableCardinalityTest took 0.248 sec
+	FAILED
+expected:<3060> but was:<0>
+junit.framework.AssertionFailedError: expected:<3060> but was:<0>
+	at simpledb.TableStatsTest.estimateTableCardinalityTest(TableStatsTest.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: estimateSelectivityTest took 0.084 sec
+	FAILED
+expected:<0.0> but was:<1.0>
+junit.framework.AssertionFailedError: expected:<0.0> but was:<1.0>
+	at simpledb.TableStatsTest.estimateSelectivityTest(TableStatsTest.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: estimateScanCostTest took 0.102 sec
+	FAILED
+expected:<3> but was:<0>
+junit.framework.AssertionFailedError: expected:<3> but was:<0>
+	at simpledb.TableStatsTest.getRandomTableScanCosts(TableStatsTest.java:35)
+	at simpledb.TableStatsTest.estimateScanCostTest(TableStatsTest.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

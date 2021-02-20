@@ -1,0 +1,47 @@
+Testsuite: simpledb.JoinTest
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.256 sec
+
+Testcase: rewind took 0.031 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:36)
+	at simpledb.JoinTest.createTupleLists(JoinTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: eqJoin took 0.003 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:36)
+	at simpledb.JoinTest.createTupleLists(JoinTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: gtJoin took 0.002 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:36)
+	at simpledb.JoinTest.createTupleLists(JoinTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: getTupleDesc took 0.002 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at simpledb.TupleIterator.<init>(TupleIterator.java:30)
+	at simpledb.TestUtil.createTupleList(TestUtil.java:36)
+	at simpledb.JoinTest.createTupleLists(JoinTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+

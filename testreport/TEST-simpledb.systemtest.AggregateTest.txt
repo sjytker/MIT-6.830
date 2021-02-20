@@ -1,0 +1,75 @@
+Testsuite: simpledb.systemtest.AggregateTest
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.302 sec
+
+Testcase: testMax took 0.109 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.AggregateTest.validateAggregate(AggregateTest.java:16)
+	at simpledb.systemtest.AggregateTest.doAggregate(AggregateTest.java:88)
+	at simpledb.systemtest.AggregateTest.testMax(AggregateTest.java:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testCount took 0.019 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.AggregateTest.validateAggregate(AggregateTest.java:16)
+	at simpledb.systemtest.AggregateTest.doAggregate(AggregateTest.java:88)
+	at simpledb.systemtest.AggregateTest.testCount(AggregateTest.java:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testMin took 0.015 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.AggregateTest.validateAggregate(AggregateTest.java:16)
+	at simpledb.systemtest.AggregateTest.doAggregate(AggregateTest.java:88)
+	at simpledb.systemtest.AggregateTest.testMin(AggregateTest.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testAverage took 0.014 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.AggregateTest.validateAggregate(AggregateTest.java:16)
+	at simpledb.systemtest.AggregateTest.doAggregate(AggregateTest.java:88)
+	at simpledb.systemtest.AggregateTest.testAverage(AggregateTest.java:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testAverageNoGroup took 0.013 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.AggregateTest.validateAggregate(AggregateTest.java:16)
+	at simpledb.systemtest.AggregateTest.doAggregate(AggregateTest.java:88)
+	at simpledb.systemtest.AggregateTest.testAverageNoGroup(AggregateTest.java:113)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+Testcase: testSum took 0.01 sec
+	Caused an ERROR
+implement this
+java.lang.UnsupportedOperationException: implement this
+	at simpledb.HeapFile.getId(HeapFile.java:50)
+	at simpledb.systemtest.AggregateTest.validateAggregate(AggregateTest.java:16)
+	at simpledb.systemtest.AggregateTest.doAggregate(AggregateTest.java:88)
+	at simpledb.systemtest.AggregateTest.testSum(AggregateTest.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
